@@ -1,8 +1,10 @@
 .intro {
+   /*background: url("../comp.png") no-repeat center fixed ; */
+  background-image: none;
   text-align: center;
   padding: 40px;
   font-family: 'Cinzel', serif;
-  background: url("comp.png") no-repeat center fixed ;
+
 }
 
 .intro h3, .intro h1{
