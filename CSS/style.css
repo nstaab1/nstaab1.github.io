@@ -1,0 +1,45 @@
+.intro {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Cinzel', serif;
+  background: #96968d url("../images/comp.png") no-repeat center fixed;
+
+}
+
+.intro h3, .intro h1{
+  color: #F5F5F5;
+}
+
+ .intro h1{
+   color: #FF5252;
+ }
+
+.portfolio {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: #F5F5F5;
+  background-color: #BDBDBD;
+}
+
+.intro .btn, .portfolio .btn {
+  margin-right: 20px;
+  background-color: #FF5252;
+  border-color: black;
+  box-shadow: 3px 3px 2px rgba(64,64,64,0.5);
+
+}
+
+.intro .btn-primary:hover {
+  background-color: #474747;
+  border-color: white;
+  box-shadow: none;
+}
+
+#name {
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+#title {
+  margin-bottom: 40px;
+}
