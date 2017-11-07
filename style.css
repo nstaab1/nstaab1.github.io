@@ -1,6 +1,6 @@
 .intro {
   text-align: center;
-  padding: 40px;
+  padding: 80px;
   font-family: 'Cinzel', serif;
   background: #96968d url("img/comp.png") no-repeat center fixed;
   background-size: cover;
@@ -12,17 +12,28 @@
 
 .portfolio {
   background-color: #BDBDBD;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: #F5F5F5;
 }
 
 .portfolioContent {
- margin: auto 10%;
- font-family: 'Cinzel', serif;
- color: #F5F5F5;
+  margin: auto 10%;  
 }
+
+
+.textRight{
+  text-align: right;
+}
+
+.textLeft{
+  text-align: left;
+}
+
 
 .projectTitle {
   color: #FF5252;
-  text-align: right;
+
 }
 
 .projectDescription {
@@ -43,9 +54,7 @@
   border-color: black !important;
 }
 
-.buttonfix{
-  text-align: center;
-}
+
 
 #name {
   font-size: 60px;
@@ -55,4 +64,38 @@
 
 #title {
   margin-bottom: 40px;
+}
+
+
+.about {
+  background-color: #2f3133;
+
+}
+
+.aboutMe {
+  color: white;
+  font-family: 'Cinzel', serif;
+  margin: auto 10%;
+  padding: 15px 0px;
+}
+#aboutPhoto{
+  border-radius: 20%;
+}
+
+.linkHeader {
+  color: white;
+}
+
+.tech {
+  background-color: #BDBDBD;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+.techcontainer{
+  padding-bottom: 20px;
+}
+.techItem{
+
+  border-radius: 25%;
 }
