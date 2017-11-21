@@ -95,7 +95,15 @@
 .techcontainer{
   padding-bottom: 20px;
 }
+
+
 .techItem{
 
   border-radius: 25%;
+}
+
+@media only screen and (max-width: 990px) {
+  .textRight, .textLeft {
+      text-align: center;
+  }
 }
